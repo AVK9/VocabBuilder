@@ -5,11 +5,10 @@ import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
-// const rootElement = document.getElementById('root') as HTMLElement;
-// const root = ReactDOM.createRoot(rootElement);
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename="/VocabBuilder">
+    {/* <BrowserRouter basename="/VocabBuilder"> */}
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   </React.StrictMode>
